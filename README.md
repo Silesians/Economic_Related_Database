@@ -8,10 +8,10 @@ This project involves developing a data warehouse using SQLite, with a focus on 
 
 All datasets are stored in the `Data_Warehouse` directory. Below is a log of the files and their respective download dates.
 
-| File Name            | Description                                 | Download Date |
-|----------------------|---------------------------------------------|---------------|
-| `holder-data.csv`    | Institutions that have access to FRB        | 2025/06/03    |
-| `requestor-data.csv` | Institutions that in application for access | 2025/06/03    |
+| File Name            | Description                                 | Download(Update) Date |
+|----------------------|---------------------------------------------|-----------------------|
+| `holder-data.csv`    | Institutions that have access to FRB        | 2025/06/03            |
+| `requestor-data.csv` | Institutions that in application for access | 2025/06/03            |
 
 ## Project Structure
 

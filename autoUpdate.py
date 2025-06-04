@@ -1,5 +1,4 @@
 import requests
-import os
 
 def download_file(url, local_filename):
     response = requests.get(url)
@@ -8,12 +7,14 @@ def download_file(url, local_filename):
             f.write(response.content)
         print(f"Downloaded: {local_filename}")
     else:
-        print("Failed to download file")
+        print(f"Failed to download {local_filename}")
 
 def main():
-    url = "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/holder-data.csv"
-    local_filename = "holder-data.csv"  # Update with the correct filename if needed
-    download_file(url, local_filename)
+    holder_data_url = "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/holder-data.csv"
+    requestor_data_url = "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv"
+
+    download_file(holder_data_url, "holder-data.csv")
+    download_file(requestor_data_url, "requestor-data.csv")
 
 if __name__ == "__main__":
     main()

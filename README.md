@@ -8,16 +8,17 @@ The Federal Reserve, and data was updated every midnight, 1st day of month 1,4,7
 ## Data Sources
 
 All imported and updated datasets will be stored in this repositary. 
-
+<br>
 For Data Import Log, you can go check:
+<br>
 (data update log): https://github.com/Silesians/Holder-Requestor-Data/blob/main/data_update.log
 
 For Imported Data, you can check:
-
-(holder-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data.csv
+<br>
+(holder-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data.csv <br>
 (requestor-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data.csv
 
 For Dictionary, you can check:
-
-(holder-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data-dictionary.csv
+<br>
+(holder-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data-dictionary.csv <br>
 (requestor-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data-dictionary.csv

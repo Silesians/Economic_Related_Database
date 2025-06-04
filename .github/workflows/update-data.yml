@@ -22,7 +22,7 @@ jobs:
       run: pip install requests
 
     - name: Run update script
-      run: python your_script.py  # Replace with the name of your script
+      run: python autoUpdate.py
 
     - name: Commit changes
       run: |

@@ -14,10 +14,10 @@ For Data Import Log, you can go check:
 
 For Imported Data, you can check:
 
-(holder-data):
-(requestor-data):
+(holder-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data.csv
+(requestor-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data.csv
 
 For Dictionary, you can check:
 
-(holder-data-dictionary):
-(requestor-data-dictionary):
+(holder-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data-dictionary.csv
+(requestor-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data-dictionary.csv

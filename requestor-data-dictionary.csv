@@ -1,0 +1,10 @@
+﻿Field Name,Description,Data Type,Example Values
+Institution Name,Name of the bank,TXT,"Bank1, Bank2"
+Date Submitted,Date when institution request access,TXT,MM/DD/YYYY
+Federal Deposit Insurance,Deposit Insured by FDIC or NCUA,TXT,"FDIC, NCUA"
+Action,Status of access request,TXT,"Approved, Pending"
+Action Date,Date for specific action taken regarding the access request,TXT,MM/DD/YYYY
+Access Request Tier(Initial),Classification of requestor under Account Access Guidlines,TXT,"Tier 1, Tier 2, Tier 3"
+City,Geographical location of the bank,TXT,"New York, Los Angeles"
+State,Geographical location of the bank,TXT,"NJ, OH"
+Reserve Bank District,District that institution access,TXT,"Chicago, New York"

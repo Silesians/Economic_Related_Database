@@ -1,12 +1,12 @@
 # Holder-Requestor-Data
 
-# Data Warehouse Project
+# Repositary
 
-This project involves developing a data warehouse using SQLite, with a focus on data preprocessing using Python. The datasets pertain to banks accessing the Federal Reserve.
+This repository is used to store and update dataset for financial instituitions that have or have requested access to Federal Reserve Bank financial services.
 
 ## Data Sources
 
-All datasets are stored in the `Data_Warehouse` directory. Below is a log of the files and their respective download dates.
+All imported and updated datasets will be stored in this repositary while also stored in 'Data_Warehouse' folder locally. Below is the log of the files and their respective download dates.
 
 | File Name            | Description                                 | Download(Update) Date |
 |----------------------|---------------------------------------------|-----------------------|
@@ -19,18 +19,8 @@ All datasets are stored in the `Data_Warehouse` directory. Below is a log of the
 - **scripts/**: Python scripts for data preprocessing and analysis.
 - **database/**: SQLite database files.
 
-## Usage
-
-1. Ensure all datasets are placed in the `Data_Warehouse` directory.
-2. Run the preprocessing scripts in the `scripts` directory to clean and prepare the data.
-3. Use the SQLite database in the `database` directory for querying and analysis.
-
 ## Documentation
 
 Detailed documentation is available on (  ).
 
-## Notes
-
-- Ensure all data files are up-to-date and check the download dates regularly.
-- For any issues, refer to the troubleshooting guide on the GitHub Wiki.
 

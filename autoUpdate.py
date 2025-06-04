@@ -1,15 +1,26 @@
 import requests
+import logging
+
+def setup_logging():
+    logging.basicConfig(
+        filename='data_update.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
 
 def download_file(url, local_filename):
-    response = requests.get(url)
-    if response.status_code == 200:
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raises an error for bad responses (4xx, 5xx)
         with open(local_filename, 'wb') as f:
             f.write(response.content)
-        print(f"Downloaded: {local_filename}")
-    else:
-        print(f"Failed to download {local_filename}")
+        logging.info(f"Downloaded: {local_filename}")
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Failed to download {local_filename}: {e}")
 
 def main():
+    setup_logging()
+
     holder_data_url = "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/holder-data.csv"
     requestor_data_url = "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv"
 

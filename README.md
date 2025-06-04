@@ -2,25 +2,22 @@
 
 # Repositary
 
-This repository is used to store and update dataset for financial instituitions that have or have requested access to Federal Reserve Bank financial services.
+This repository is used to store and auto update dataset for financial instituitions that have or have requested access to Federal Reserve Bank financial services every quarterly. These dataset were come from Board of Governors of the Federal Reserve System
+The Federal Reserve, and data was updated every midnight, 1st day of month 1,4,7,10.
 
 ## Data Sources
 
-All imported and updated datasets will be stored in this repositary while also stored in 'Data_Warehouse' folder locally. Below is the log of the files and their respective download dates.
+All imported and updated datasets will be stored in this repositary. 
 
-| File Name            | Description                                 | Download(Update) Date |
-|----------------------|---------------------------------------------|-----------------------|
-| `holder-data.csv`    | Institutions that have access to FRB        | 2025/06/03            |
-| `requestor-data.csv` | Institutions that in application for access | 2025/06/03            |
+For Data Import Log, you can go check:
+(data update log): https://github.com/Silesians/Holder-Requestor-Data/blob/main/data_update.log
 
-## Project Structure
+For Imported Data, you can check:
 
-- **Data_Warehouse/**: Directory containing all downloaded datasets.
-- **scripts/**: Python scripts for data preprocessing and analysis.
-- **database/**: SQLite database files.
+(holder-data):
+(requestor-data):
 
-## Documentation
+For Dictionary, you can check:
 
-Detailed documentation is available on (  ).
-
-
+(holder-data-dictionary):
+(requestor-data-dictionary):

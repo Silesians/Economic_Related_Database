@@ -1,4 +1,4 @@
-# Credit_Default_Related_Databse Repository
+# Credit_Default_Related_Database Repository
 
 This repository is used to store and auto update dataset for financial instituitions that have or have requested access to Federal Reserve Bank financial services every quarterly. These dataset were come from Board of Governors of the Federal Reserve System
 The Federal Reserve, and data was updated every midnight, 1st day of month 1,4,7,10.
@@ -16,10 +16,10 @@ For Imported Data, you can check:
 (holder-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data.csv <br>
 (requestor-data): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data.csv
 
-For Dictionary, you can check:
+For Holder and Requestor Data Dictionary, you can check:
 <br>
 (holder-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/holder-data-dictionary.csv <br>
-(requestor-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data-dictionary.csv
+(requestor-data-dictionary): https://github.com/Silesians/Holder-Requestor-Data/blob/main/requestor-data-dictionary.csv <br>
 
 For QBP Spreadsheet, you can check:
 <br>
@@ -28,3 +28,6 @@ For QBP Spreadsheet, you can check:
 For Most Recent and past 5 year FDIC's Deposit Dataset, you can check:
 <br>
 (FDIC Deposit Dataset): https://github.com/Silesians/Holder-Requestor-Data/wiki/FDIC-Deposit-Dataset <br>
+
+For Depost Related Data Dictionary, go check:
+(FDIC Deposit Data Dictionary): 

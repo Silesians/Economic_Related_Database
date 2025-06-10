@@ -27,6 +27,6 @@ For QBP Spreadsheet, you can check:
 <br>
 (Archived QBP Time Series Spreadsheets): https://github.com/Silesians/Holder-Requestor-Data/wiki/Archived-QBP-Time-Series-Spreadsheets <br> 
 
-For FDIC Dataset, you can check:
-<br?
-(FDIC Deposit Dataset): https://github.com/Silesians/Holder-Requestor-Data/tree/main/FDIC%20Deposit%20Dataset <br> 
+For Most Recent and past 5 years' FDIC Dataset, you can check:
+<br>
+(FDIC Deposit Dataset): https://github.com/Silesians/Holder-Requestor-Data/tree/main/FDIC%20Deposit%20Dataset

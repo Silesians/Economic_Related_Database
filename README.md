@@ -29,5 +29,5 @@ For Most Recent and past 5 year FDIC's Deposit Dataset, you can check:
 <br>
 (FDIC Deposit Dataset): https://github.com/Silesians/Holder-Requestor-Data/wiki/FDIC-Deposit-Dataset <br>
 
-For Depost Related Data Dictionary, go check:
-(FDIC Deposit Data Dictionary): 
+For Depost Related Data Dictionary, go check: <br>
+(FDIC Deposit Data Dictionary): https://github.com/Silesians/Credit_Default_Related_Database/wiki/Data%E2%80%90Dictionary

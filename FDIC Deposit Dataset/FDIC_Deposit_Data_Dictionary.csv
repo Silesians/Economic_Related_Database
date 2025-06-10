@@ -1,0 +1,25 @@
+﻿Full Name,Dataset Variable Name,Description,Data Type
+Report Year (Institution),YEAR,The year the report was generated.,Integer
+FDIC Certificate #,CERT,Unique identifier for the institution.,Integer
+Institution Name at Time of Reporting,NAMEFULL,Name of the institution at reporting time.,String
+Total Assets,ASSET,Total assets held by the institution.,Float
+Institution Class,BKCLASS,Classification of the institution.,String
+Deposits held in domestic offices,DEPDOM,Deposits in domestic offices.,Float
+Total Deposits (Institution),DEPSUM,Total deposits held by the institution.,Float
+Primary Federal Regulator (Institution),REGAGNT,Primary federal regulator of the institution.,String
+State Code,STALP,State code of the institution.,String
+Zip Code,ZIP,Zip code of the institution's location.,String
+Address (Branch),ADDRESBR,Address of the branch.,String
+Branch Office Number (Branch),BRNUM,Number identifying the branch office.,Integer
+Unique Identification Number for a Branch Office (Branch),UNINUMBR,Unique ID for the branch office.,Integer
+State Code (Branch),STALPBR,State code where the branch is located.,String
+Main Office Designation Flag (Branch),BKMO,Indicates if the branch is the main office.,Boolean
+Branch Service Type (Branch),BRSERTYP,Type of services offered by the branch.,String
+City (Reported)(Branch),CITYBR,City where the branch is located.,String
+County Name (Branch),CNTYNAMB,County where the branch is located.,String
+Deposits (Branch)(in thousands of dollars),DEPSUMBR,Total deposits held by the branch.,Float
+Metropolitan Statistical Area Name (Branch),MSANAMB,Name of the metropolitan statistical area.,String
+Branch Name (Branch),NAMEBR,Name of the branch.,String
+Established Date (Branch Office),SIMS_ESTABLISHED_DATE,Date when the branch was established.,Date
+Physical Latitude Coordinates (Branch Office),SIMS_LATITUDE,Latitude coordinates of the branch location.,Float
+Physical Longitude Coordinates (Branch Office),SIMS_LONGITUDE,Longitude coordinates of the branch location.,Float
